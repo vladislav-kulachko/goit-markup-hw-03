@@ -12,12 +12,6 @@ body {
   color: var(--primary-black-color);
   background-color: var(--white-color);
 }
-/* .list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-} */
 h1,
 h2,
 h3,
@@ -33,9 +27,10 @@ img {
   display: block;
 }
 .container {
-  width: 1600px;
-  height: 2349px;
+  width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .header {
   font-weight: 500;
@@ -44,19 +39,14 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  outline: 1px solid red;
-  height: 80px;
 }
 .navigation-list {
-  width: 294px;
+  list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-left: 93px;
-  list-style: none;
 }
 .logo-item {
-  padding-left: 215px;
+  margin-right: 93px;
 }
 .logo-head {
   font-family: "Raleway", sans-serif;
@@ -66,25 +56,39 @@ img {
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-left {
   color: var(--blue-color);
 }
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
 .nav-list-link {
   text-decoration: none;
   color: var(--primary-black-color);
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 .address-header {
-  width: 307px;
-  margin-left: 331px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   list-style: none;
+  margin-left: auto;
+}
+.header-mail-item {
+  margin-right: 50px;
 }
 .header-mail-link,
 .header-phone-link {
   text-decoration: none;
   color: var(--secondary-black-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
@@ -95,15 +99,12 @@ img {
   color: var(--blue-color);
 }
 .order-service {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 600px;
   background-color: #2f303a;
+  padding-bottom: 200px;
+  margin-bottom: 94px;
 }
-.order-blank {
-  padding-top: 200px;
+.order-service .container {
+  text-align: center;
 }
 .order-service-head {
   font-weight: 900;
@@ -111,10 +112,11 @@ img {
   line-height: 1.364;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  text-align: center;
   text-transform: uppercase;
-  width: 696px;
-  height: 120px;
+  padding-left: 237px;
+  padding-right: 237px;
+  padding-top: 200px;
+  margin-bottom: 30px;
 }
 .order-service-button {
   font-family: inherit;
@@ -128,17 +130,15 @@ img {
   min-width: 200px;
   border-radius: 4px;
   padding: 10px 32px;
-  margin-top: 50px;
   border: none;
+  display: inline-block;
 }
 .advantage {
-  margin-top: 94px;
-  height: 101px;
-  width: 1170px;
 }
 .advantage-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
 .advantage-item {
@@ -158,7 +158,7 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--secondary-black-color);
-  height: 75px;
+  /* height: 75px; */
 }
 .work-header {
   font-weight: 700;
