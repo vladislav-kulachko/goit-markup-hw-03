@@ -37,6 +37,8 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+}
+.header .container {
   display: flex;
   align-items: center;
 }
@@ -134,6 +136,7 @@ img {
   display: inline-block;
 }
 .advantage {
+  margin-bottom: 94px;
 }
 .advantage-list {
   display: flex;
@@ -160,21 +163,32 @@ img {
   color: var(--secondary-black-color);
   /* height: 75px; */
 }
+.work {
+  margin-bottom: 94px;
+}
 .work-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 .work-list {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style: none;
-  width: 1170px;
+}
+.team-header {
+  text-align: center;
+  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .team-list {
   list-style: none;
+  display: flex;
+  padding-bottom: 94px;
 }
 .staff-card {
   background: var(--white-color);
@@ -182,11 +196,19 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.staff-card:not(:last-child) {
+  margin-right: 30px;
+}
+.img-staff {
+  margin-bottom: 30px;
+}
 .staff-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.185;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .staff-function {
   font-size: 16px;
@@ -194,6 +216,8 @@ img {
   letter-spacing: 0.03em;
   font-weight: 400;
   color: var(--secondary-black-color);
+  text-align: center;
+  margin-bottom: 30px;
 }
 .footer {
   background-color: #2f303a;
@@ -206,6 +230,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--white-color);
   text-decoration: none;
+  display: block;
+  padding-top: 60px ;
+  margin-bottom: 20px;
 }
 .address-footer {
   font-style: inherit;
@@ -213,10 +240,12 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+  padding-bottom: 60px;
 }
 .address-list {
   list-style: none;
 }
+.address-item:not(:last-child){margin-bottom: 9px;}
 .physical-address-link {
   text-decoration: none;
   color: var(--white-color);
