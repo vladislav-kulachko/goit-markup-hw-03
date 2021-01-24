@@ -148,6 +148,7 @@ img {
 }
 .advantage-item {
   width: 270px;
+  height: 101px;
 }
 .advantage-header {
   font-weight: 700;
@@ -201,15 +202,16 @@ img {
 .staff-card:not(:last-child) {
   margin-right: 30px;
 }
-.img-staff {
-  margin-bottom: 30px;
+.staff-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 .staff-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.185;
   letter-spacing: 0.03em;
-  text-align: center;
   margin-bottom: 10px;
 }
 .staff-function {
@@ -218,8 +220,6 @@ img {
   letter-spacing: 0.03em;
   font-weight: 400;
   color: var(--secondary-black-color);
-  text-align: center;
-  margin-bottom: 30px;
 }
 .footer {
   background-color: #2f303a;
@@ -293,7 +293,6 @@ img {
   min-width: auto;
   padding: 6px 22px;
 }
-
 .button-action:focus,
 .button-action:hover,
 .button:active {
@@ -321,8 +320,11 @@ img {
 .border {
   border: 1px solid #eeeeee;
   border-top: none;
-  padding: 20px 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   height: 110px;
+  width: 370px;
 }
 .project-name {
   font-weight: 700;
