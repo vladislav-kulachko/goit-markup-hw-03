@@ -177,6 +177,9 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
+.team {
+  background-color: var(--button-color);
+}
 .work-list {
   display: flex;
   justify-content: space-between;
@@ -184,6 +187,10 @@ img {
   list-style: none;
 }
 .team-header {
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
   text-align: center;
   padding-top: 94px;
   margin-bottom: 50px;
