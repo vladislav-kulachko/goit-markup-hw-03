@@ -39,6 +39,10 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
 }
 .header .container {
   display: flex;
@@ -61,8 +65,8 @@ img {
   color: #000000;
   text-decoration: none;
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
 }
 .logo-left {
   color: var(--blue-color);
@@ -74,8 +78,8 @@ img {
   text-decoration: none;
   color: var(--primary-black-color);
   display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  /* padding-bottom: 32px;
+  padding-top: 32px; */
 }
 .address-header {
   display: flex;
@@ -91,8 +95,8 @@ img {
   text-decoration: none;
   color: var(--secondary-black-color);
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
@@ -148,7 +152,7 @@ img {
 }
 .advantage-item {
   width: 270px;
-  height: 101px;
+  min-height: 101px;
 }
 .advantage-header {
   font-weight: 700;
@@ -230,6 +234,7 @@ img {
 }
 .footer {
   background-color: #2f303a;
+  padding: 60px 0;
 }
 .logo-foot {
   font-family: "Raleway", sans-serif;
@@ -240,7 +245,6 @@ img {
   color: var(--white-color);
   text-decoration: none;
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 .address-footer {
@@ -249,10 +253,10 @@ img {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  padding-bottom: 60px;
 }
 .address-list {
   list-style: none;
+  height: 81px;
 }
 .address-item:not(:last-child) {
   margin-bottom: 9px;
