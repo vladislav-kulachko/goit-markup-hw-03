@@ -138,7 +138,7 @@ img {
   display: inline-block;
 }
 .advantage {
-  padding: 94px 215px;
+  padding: 94px 0;
 }
 .advantage-list {
   display: flex;
@@ -273,8 +273,7 @@ img {
   color: var(--blue-color);
 }
 .filter {
-  margin-top: 93px;
-  margin-bottom: 93px;
+  padding: 93px 0;
 }
 .button-list {
   display: flex;
