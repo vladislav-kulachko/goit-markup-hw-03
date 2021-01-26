@@ -39,8 +39,6 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #ececec;
 }
 .header .container {
@@ -64,8 +62,8 @@ img {
   color: #000000;
   text-decoration: none;
   display: block;
-  /* padding-top: 24px;
-  padding-bottom: 25px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-left {
   color: var(--blue-color);
@@ -77,8 +75,8 @@ img {
   text-decoration: none;
   color: var(--primary-black-color);
   display: block;
-  /* padding-bottom: 32px;
-  padding-top: 32px; */
+  padding-bottom: 32px;
+  padding-top: 31px;
 }
 .address-header {
   display: flex;
@@ -94,8 +92,8 @@ img {
   text-decoration: none;
   color: var(--secondary-black-color);
   display: block;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+  padding-top: 32px;
+  padding-bottom: 31px;
 }
 .nav-list-link:hover,
 .nav-list-link:focus,
@@ -108,7 +106,6 @@ img {
 .order-service {
   background-color: #2f303a;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 .order-service .container {
   text-align: center;
@@ -141,16 +138,13 @@ img {
   display: inline-block;
 }
 .advantage {
-  margin-bottom: 94px;
+  padding: 94px 215px;
 }
 .advantage-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
 }
 .advantage-item {
-  width: 270px;
   min-height: 101px;
 }
 .advantage-header {
@@ -167,10 +161,9 @@ img {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--secondary-black-color);
-  /* height: 75px; */
 }
 .work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .work-header {
   font-weight: 700;
@@ -185,9 +178,13 @@ img {
 }
 .work-list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   list-style: none;
+}
+.img-work:not(:last-child) {
+  margin-right: 30px;
+}
+.team {
+  padding: 94px 0;
 }
 .team-header {
   font-size: 36px;
@@ -195,13 +192,11 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .team-list {
   list-style: none;
   display: flex;
-  padding-bottom: 94px;
 }
 .staff-card {
   background: var(--white-color);
